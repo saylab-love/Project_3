@@ -1,4 +1,4 @@
-# html
-# CSS
-#bootstrap
+.html
+.css
+.bootstrap
 
