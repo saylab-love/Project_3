@@ -1,4 +1,5 @@
-.html
-.css
-.bootstrap
+# Using language
+* html
+* css
+* bootstrap
 
