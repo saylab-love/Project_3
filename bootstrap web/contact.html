@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<title>Contact</title>
+
+</head>
+<body>
+	<div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 bg-dark">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                      <a style="font-weight: bold;" class="text-info nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a style="font-weight: bold;"  class="text-info nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a style="font-weight: bold;"  class="text-info nav-link" href="contact.html">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="font-weight: bold;"  class="text-info nav-link active" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="font-weight: bold;"  class="text-info nav-link" href="signup.html">SignUp</a>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+		<div style="padding: 100px; background: #000; color: aqua;" class="form row">
+			<div class="col-sm-4"></div>
+			<div class="col-sm-4">
+				<form class="">
+					<div style="text-align: center; font-size: 35px;">
+						<label for="">Contact Us</label>
+					</div>					
+                    <div class="mb-3 row">
+                        <label for="staticEmail" class="col-sm-2 col-form-label">Name</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="inputPassword" placeholder="name">
+                        </div>
+                      </div>
+                      <div class="mb-3 row">
+                        <label for="staticEmail" class="col-sm-2 col-form-label" >Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="inputPassword" placeholder="name@example.com">
+                        </div>
+                      </div>
+                      <div class="mb-3 row">
+                        <label for="staticEmail" class="col-sm-2 col-form-label" >Phone</label>
+                        <div class="col-sm-10">
+                            <input type="number" class="form-control" id="inputPassword" placeholder="+880">
+                        </div>
+                      </div>
+                      <div class="mb-3 row">
+                        <label for="staticEmail" class="col-sm-2 col-form-label" >District</label>
+                        <div class="col-sm-10">
+                            <select style="padding: 7px; border-radius: 5px;" class="form-select" aria-label="Default select example">
+                                <option selected>Select your district</option>
+                                <option value="1">Dhaka</option>
+                                <option value="2">Cumilla</option>
+                                <option value="3">Rajshahi</option>
+                                <option value="3">Barishal</option>
+                                <option value="3">Sylhet</option>
+                                <option value="3">Chittagong</option>
+                              </select>
+                        </div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div><br>
+					<div style="text-align: center;">
+						<button class="btn-info btn">Send</button><br><br>						
+					</div>
+				  </form>
+			</div>
+			<div class="col-sm-4"></div>
+		</div>
+	</div>
+</body>
+</html>
